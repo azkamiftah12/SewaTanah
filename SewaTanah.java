@@ -12,6 +12,9 @@ package sewatanah;
 public class SewaTanah {
     public double sewa (double luas, double trfpermtr){
         double HargaSewa;
+        
+        luas= 1000;
+        trfpermtr= 2000000;
         HargaSewa = luas * trfpermtr;
         return HargaSewa;
     }
